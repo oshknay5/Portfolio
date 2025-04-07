@@ -6,5 +6,10 @@ export const theme = {
 
         font:'rgb(255, 255, 255)',
 
+    },
+
+    font:{
+        primaryFont:'"Poppins", sans-serif',
+        secondaryFont:'"Josefin Sans", sans-serif',
     }
 }

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "../../../../component/Link";
 
 type WorkPropsType = {
 title:string;
@@ -19,7 +20,10 @@ return(
 )
 }
 const StyledWork = styled.div`
-background-color:rgb(233, 192, 238);
+${Link} {
+    padding:10px 0;
+    }
+background-color:rgb(245, 237, 135);
 max-width:540px;
 width:100%;
 `
@@ -32,6 +36,6 @@ width:100%;
  `
   const Text = styled.p`
  `
-  const Link = styled.a`
-  `
+
+  
  

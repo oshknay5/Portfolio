@@ -1,27 +1,49 @@
-import styled from "styled-components"
-import { FlexWrapper } from "../../../component/FlexWrapper"
-import {SectionTitle} from "../../../component/SectionTitle"
-import { Skill } from "./Skill"
+import styled from "styled-components";
+import { FlexWrapper } from "../../../component/FlexWrapper";
+import { SectionTitle } from "../../../component/SectionTitle";
+import { Skill } from "./Skill";
+import { Container } from "../../../component/Container";
 
-   export const Skills =()=>{
-    return (
-         <StyledSkills>
-             <SectionTitle>My skills</SectionTitle> 
+export const Skills = () => {
+  return (
+    <StyledSkills>
+      <Container>
+        <SectionTitle>My skills</SectionTitle>
 
-             <FlexWrapper wrap ={'wrap'} justify={"space-between"}>
-              <Skill iconId= {'code'} title ={'HTML5'}  description={"LOrerkkkkkkkkkkkkk"}/>
-              <Skill iconId= {'figma'} title ={'Figma'}  description={"LOrerkkkkkkkkkkkkk"}/>
-              <Skill iconId= {'css3'} title ={'CSS3'}  description={"LOrerkkkkkkkkkkkkk"}/>
-              <Skill iconId= {'react'} title ={'REACT'}  description={"LOrerkkkkkkkkkkkkk"}/>
-              <Skill iconId= {'code'} title ={'HTML5'}  description={"LOrerkkkkkkkkkkkkk"}/>
-              <Skill iconId= {'code'} title ={'HTML5'}  description={"LOrerkkkkkkkkkkkkk"}/>
-             </FlexWrapper>
-
-         </StyledSkills>
-    )
-  }
-  const StyledSkills = styled.section`
-  background-color:rgb(248, 179, 179);
-  min-height:100vh;
-  `
-
+        <FlexWrapper wrap={"wrap"} justify={"space-between"}>
+          <Skill
+            iconId={"code"}
+            title={"HTML5"}
+           
+          />
+          <Skill
+            iconId={"figma"}
+            title={"Figma"}
+           
+          />
+          <Skill
+            iconId={"css3"}
+            title={"CSS3"}
+           
+          />
+          <Skill
+            iconId={"react"}
+            title={"REACT"}
+        
+          />
+          <Skill
+            iconId={"st-comp"}
+            title={"styled-components"}
+          
+          />
+          <Skill
+            iconId={"TS"}
+            title={"TypeScript"}
+          
+          />
+        </FlexWrapper>
+      </Container>
+    </StyledSkills>
+  );
+};
+const StyledSkills = styled.section``;
