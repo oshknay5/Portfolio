@@ -3,13 +3,16 @@ import { SectionTitle } from "../../../component/SectionTitle";
 import { FlexWrapper } from "../../../component/FlexWrapper";
 import { Icon } from "../../../component/icon/Icon";
 import { Slider } from "../../../component/slider/Slider";
+import { IconWrapper } from "../skills/Skill";
 
 export const Testimony = () => {
   return (
     <StyledTestimony>
       <SectionTitle> Testimony </SectionTitle>
       <FlexWrapper direction={"column"} align={"center"}>
-        <Icon iconId={"quote"}/>
+        <IconWrapper>
+            <Icon iconId={"quote"}/>
+        </IconWrapper>
         <Slider/>
       </FlexWrapper>
     </StyledTestimony>
@@ -17,6 +20,8 @@ export const Testimony = () => {
 };
 const StyledTestimony = styled.section`
   min-height: 50vh;
-  background-color: rgb(200, 247, 247);
-  
+${IconWrapper}{
+margin:40px 0 72px;
+}
+
 `;

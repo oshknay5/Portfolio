@@ -29,6 +29,9 @@ ul{
 button{
   background-color: unset;
   border:none;
+  cursor:pointer;
+   color: ${theme.color.font};
+
   }
 
 section{
