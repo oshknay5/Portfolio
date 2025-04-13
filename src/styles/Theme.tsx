@@ -5,6 +5,8 @@ export const theme = {
         accent:'rgb(250, 128, 234)',
 
         font:'rgb(255, 255, 255)',
+        borderColor:'rgb(74, 74, 74)',
+        placeholderColor:'rgb(73, 80, 87)',
 
     },
 

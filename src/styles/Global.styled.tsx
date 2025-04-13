@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
   }
 
   body{
@@ -20,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
 a {
   text-decoration:none;
   color: ${theme.color.font};
+  cursor:pointer;
   }
 
 ul{
@@ -35,7 +37,7 @@ button{
   }
 
 section{
-   padding:10px 0;
+   padding:100px 0;
    }
 
 section:nth-of-type(odd) {

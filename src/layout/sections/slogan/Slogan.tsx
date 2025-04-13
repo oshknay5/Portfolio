@@ -1,12 +1,20 @@
 import styled from "styled-components"
 import { Button } from "../../../component/Button"
 import { SectionTitle } from "../../../component/SectionTitle"
+import { Container } from "../../../component/Container"
+import { FlexWrapper } from "../../../component/FlexWrapper"
 
  export const Slogan = ()=>{
      return (
         <StyledSlogan>
-            <SectionTitle>I am Available For Freelance</SectionTitle>
-            <Button>Hire me</Button>
+            <Container>
+                <FlexWrapper direction={"column"} align={"center"}>
+                <SectionTitle>I am Available For Freelance</SectionTitle>
+                <Button>Hire me</Button>
+                </FlexWrapper>
+           
+            </Container>
+            
         </StyledSlogan>
      )
  }
